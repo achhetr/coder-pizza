@@ -1,3 +1,19 @@
-body {
-  color: #ed1c24;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background: black;
+}
+.header .store-info-header {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .store-info-header .store-link-container {
+  display: flex;
 }/*# sourceMappingURL=main.css.map */

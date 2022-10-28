@@ -1,0 +1,15 @@
+.header {
+  background: black;
+
+  .store-info-header {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .store-link-container {
+      display: flex;
+    }
+  }
+}

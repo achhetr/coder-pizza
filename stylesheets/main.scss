@@ -1,5 +1,6 @@
+// defaults settings
+@import './default/reset';
 @import './default/colors';
 
-body {
-  color: $primary-color;
-}
+// components
+@import './components/header';
