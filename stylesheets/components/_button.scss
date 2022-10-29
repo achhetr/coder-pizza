@@ -1,0 +1,10 @@
+@mixin button() {
+  background: $primary-color;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 8px;
+  font-size: 32px;
+  font-style: italic;
+  box-shadow: 2px 2px 2px $primary-color;
+}
+  
