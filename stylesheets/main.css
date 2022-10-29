@@ -10,10 +10,22 @@
 .header .store-info-header {
   max-width: 1180px;
   margin: 0 auto;
+  padding: 16px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+.header .store-info-header .logo img {
+  height: 64px;
+  width: 64px;
+}
 .header .store-info-header .store-link-container {
   display: flex;
+}
+.header .store-info-header .store-link-container li {
+  margin-left: 16px;
+}
+.header .store-info-header .store-link-container li a img {
+  width: 150px;
+  height: 48px;
 }/*# sourceMappingURL=main.css.map */

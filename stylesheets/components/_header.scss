@@ -4,12 +4,30 @@
   .store-info-header {
     max-width: 1180px;
     margin: 0 auto;
+    padding: 16px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
+    .logo {
+      img {
+        height: 64px;
+        width: 64px;
+      }
+    }
+
     .store-link-container {
       display: flex;
+
+      li {
+        margin-left: 16px;
+        a {
+          img {
+            width: 150px;
+            height: 48px;
+          }
+        }
+      }
     }
   }
 }
