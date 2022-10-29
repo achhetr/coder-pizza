@@ -83,4 +83,10 @@
 .header .nav-bar-btns li a:hover,
 .header .nav-bar-links li a:hover {
   color: black;
+}
+
+.jumbotron .landing-page-container img {
+  width: 100vw;
+  height: 70vh;
+  min-width: 1460px;
 }/*# sourceMappingURL=main.css.map */

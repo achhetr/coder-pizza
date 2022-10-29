@@ -3,3 +3,15 @@
 
 // components
 @import './components/header';
+
+// home pages
+
+.jumbotron {
+  .landing-page-container {
+      img {
+        width: 100vw;
+        height: 70vh;
+        min-width: 1460px;
+      }
+    }
+  }
