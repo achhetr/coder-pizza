@@ -3,6 +3,13 @@
 
 // components
 @import './components/header';
+@import './components/footer';
+
+// All pages basic styles
+
+body {
+  background: black;
+}
 
 // home pages
 
@@ -15,3 +22,47 @@
       }
     }
   }
+
+.find-your-store {
+  max-width: $content-max-width;
+  display: flex;
+  justify-content: space-between;
+  margin: 64px auto;
+  padding-bottom: 48px;
+  border-bottom: 4px solid white;
+
+  .store-card {
+    width: 45%;
+    background: $primary-color;
+    color: white;
+
+    h2 {
+      text-align: center;
+      padding: 16px 0;
+    }
+
+    .locate-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: white;
+      margin: 8px;
+      h2 {
+        padding-top: 16px;
+        color: $primary-color;
+      }
+
+      a {
+        @include button;
+        text-decoration: none;
+        margin-bottom: 16px;
+
+        &:hover {
+          background: white;
+          color: $primary-color;
+          text-decoration: underline;  
+        }
+      }
+    }
+  }
+}

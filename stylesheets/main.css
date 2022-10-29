@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-.header {
-  background: black;
-}
 .header .store-info-header {
   max-width: 1180px;
   margin: 0 auto;
@@ -85,8 +82,65 @@
   color: black;
 }
 
+.footer {
+  padding: 50px 0;
+}
+.footer p {
+  color: white;
+  text-align: center;
+}
+
+body {
+  background: black;
+}
+
 .jumbotron .landing-page-container img {
   width: 100vw;
   height: 70vh;
   min-width: 1460px;
+}
+
+.find-your-store {
+  max-width: 1180px;
+  display: flex;
+  justify-content: space-between;
+  margin: 64px auto;
+  padding-bottom: 48px;
+  border-bottom: 4px solid white;
+}
+.find-your-store .store-card {
+  width: 45%;
+  background: #ed1c24;
+  color: white;
+}
+.find-your-store .store-card h2 {
+  text-align: center;
+  padding: 16px 0;
+}
+.find-your-store .store-card .locate-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  margin: 8px;
+}
+.find-your-store .store-card .locate-card h2 {
+  padding-top: 16px;
+  color: #ed1c24;
+}
+.find-your-store .store-card .locate-card a {
+  background: #ed1c24;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 8px;
+  font-size: 32px;
+  font-style: italic;
+  box-shadow: 2px 2px 2px #ed1c24;
+  text-decoration: none;
+  margin-bottom: 16px;
+}
+.find-your-store .store-card .locate-card a:hover {
+  background: white;
+  color: #ed1c24;
+  text-decoration: underline;
 }/*# sourceMappingURL=main.css.map */
