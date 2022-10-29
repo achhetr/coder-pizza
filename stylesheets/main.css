@@ -28,4 +28,59 @@
 .header .store-info-header .store-link-container li a img {
   width: 150px;
   height: 48px;
+}
+
+.header .nav {
+  background: white;
+}
+.header .nav-container {
+  max-width: 1180px;
+  padding: 32px 0;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.header .nav-bar-btns {
+  display: flex;
+}
+.header .nav-bar-btns li a {
+  background: #ed1c24;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 8px;
+  font-size: 32px;
+  font-style: italic;
+  box-shadow: 2px 2px 2px #ed1c24;
+}
+.header .nav-bar-links {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+.header .nav-bar-links li {
+  transform: skew(-15deg);
+  border-right: 2px solid #ed1c24;
+  padding-right: 8px;
+  padding-left: 12px;
+}
+.header .nav-bar-links li a {
+  font-size: 20px;
+  color: #ed1c24;
+}
+.header .nav-bar-links li:last-child {
+  border-right: none;
+}
+.header .nav-bar-btns li,
+.header .nav-bar-links li {
+  margin-right: 16px;
+  list-style: none;
+}
+.header .nav-bar-btns li a,
+.header .nav-bar-links li a {
+  text-decoration: none;
+  font-weight: 700;
+}
+.header .nav-bar-btns li a:hover,
+.header .nav-bar-links li a:hover {
+  color: black;
 }/*# sourceMappingURL=main.css.map */

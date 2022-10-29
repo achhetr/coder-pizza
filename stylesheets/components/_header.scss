@@ -2,7 +2,7 @@
   background: black;
 
   .store-info-header {
-    max-width: 1180px;
+    max-width: $content-max-width;
     margin: 0 auto;
     padding: 16px 0;
     display: flex;
@@ -26,6 +26,69 @@
             width: 150px;
             height: 48px;
           }
+        }
+      }
+    }
+  }
+}
+
+.header {
+  .nav {
+    background: white;
+  }
+  .nav-container {
+    max-width: $content-max-width;
+    padding: 32px 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-bar-btns {
+    display: flex;
+    li {
+      a {
+        background: $primary-color;
+        color: white;
+        padding: 8px 24px;
+        border-radius: 8px;
+        font-size: 32px;
+        font-style: italic;
+        box-shadow: 2px 2px 2px $primary-color;
+      }
+    }
+  }
+
+  .nav-bar-links {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    li {
+      transform: skew(-15deg);
+      border-right: 2px solid $primary-color;
+      padding-right: 8px;
+      padding-left: 12px;
+      a {
+        font-size: 20px;
+        color: $primary-color;
+      }
+      &:last-child {
+        border-right: none;
+      }
+    }
+  }
+
+  .nav-bar-btns,
+  .nav-bar-links {
+    li {
+      margin-right: 16px;
+      list-style: none;
+      a {
+        text-decoration: none;
+        font-weight: 700;
+
+        &:hover {
+          color: black;
         }
       }
     }
